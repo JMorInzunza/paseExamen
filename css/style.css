@@ -1,0 +1,239 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	margin:0 auto;
+}
+	
+.main-header h1{
+	margin-top: 0;
+	background-color: #00b5c9;
+	padding:15px;
+	color:white;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.info{
+	margin:auto;
+}
+
+.summ{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	margin: 0 1%;	
+}
+
+.summ h2{
+	color:#00b5c9;
+	font-size: 20px;
+}
+
+.leftc{
+	color:#00b5c9;
+	float: left;
+	text-align: right;
+}
+
+.leftc ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.centerc{
+	float:left;
+	text-align:left;
+}
+
+.centerc ul{
+	list-style: none;
+	padding-left:10px;
+}
+.cualidades{
+	text-align: center;
+	margin:auto;
+}
+.cualidades ul{
+	list-style: none;
+	display:inline-block;
+	padding-left: 0px;
+}	
+
+.cualidades ul li{
+	display:inline-block;
+	margin: 5px 2px;
+	background-color:#00b5c9;
+	color:white;
+	padding:5px;
+	border-radius: 20px;
+}
+.picture{
+	margin: 5%;
+}
+
+.picture img{
+	width: 100%;
+	border-radius: 5px;	
+}
+
+.motivaciones ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.motivaciones li{
+	margin-bottom: 5px;
+	padding: 3px 2px;
+}
+.motivaciones li:nth-child(odd){
+	background-color: #cccccc;
+	color:white;
+}
+.motivaciones li:nth-child(even){
+	background-color: #f2f2f2;
+	color:black;
+}
+.metas{
+	margin-bottom: 3%;
+}
+.metas ul{
+	padding-left: 20px;
+}
+.metas ul li{
+	margin-bottom: 2px;
+}
+
+.biografia{
+	background-color: #f2f2f2;
+	width: 100%;
+	padding-left: 5px;
+	word-wrap: break-word;
+	padding-right:5px;
+}
+.historial{
+	margin-bottom:55px;
+}
+.historial ul{
+	padding-left: 20px;
+}
+.historial ul li{
+	margin-bottom: 2px;
+}
+.tecnologias ul {
+	padding-left: 0px;
+	list-style: none;
+}
+.tecnologias ul li{
+	width: 90%;
+	padding-bottom: 2px;
+}
+
+.Web{
+	background: #00b5c9;
+background: -moz-linear-gradient(left, #00b5c9 35%, #f2f2f2 35%);
+background: -webkit-linear-gradient(left, #00b5c9 35%,#f2f2f2 35%);
+background: linear-gradient(to right, #00b5c9 35%,#f2f2f2 35%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b5c9', endColorstr='#f2f2f2',GradientType=1 );
+}
+
+.Movil{
+background: #00b5c9;
+background: -moz-linear-gradient(left, #00b5c9 20%, #f2f2f2 20%);
+background: -webkit-linear-gradient(left, #00b5c9 20%,#f2f2f2 20%);
+background: linear-gradient(to right, #00b5c9 20%,#f2f2f2 20%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b5c9', endColorstr='#f2f2f2',GradientType=1 );
+}
+
+.Datos{
+background: #00b5c9;
+background: -moz-linear-gradient(left, #00b5c9 60%, #f2f2f2 60%);
+background: -webkit-linear-gradient(left, #00b5c9 60%,#f2f2f2 60%);
+background: linear-gradient(to right, #00b5c9 60%,#f2f2f2 60%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b5c9', endColorstr='#f2f2f2',GradientType=1 );
+}
+
+.Redes{
+	background: #00b5c9;
+background: -moz-linear-gradient(left, #00b5c9 30%, #00b5c9 30%, #f2f2f2 30%, #f2f2f2 30%);
+background: -webkit-linear-gradient(left, #00b5c9 30%,#00b5c9 30%,#f2f2f2 30%,#f2f2f2 30%);
+background: linear-gradient(to right, #00b5c9 30%,#00b5c9 30%,#f2f2f2 30%,#f2f2f2 30%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b5c9', endColorstr='#f2f2f2',GradientType=1 );
+}
+
+.tecnologias li:nth-child(even){
+	color:#00b5c9;
+	margin-bottom: 3%;
+}
+.social{
+	text-align: center;
+	margin:auto;
+	color: #00b5c9;
+	font-size: 70px;
+}
+.social ul{
+	list-style: none;
+	display:inline-block;
+	padding-left: 0px;
+}
+.social ul li{
+	display:inline-block;
+	margin: 5px 10px;
+	padding:10px;
+}
+.social a{
+	color:#00b5c9;
+	margin-right:10px;
+	text-decoration: none;
+}
+footer
+{
+	margin-bottom: 0;
+	background-color: #00b5c9;
+	padding:5px;
+	font-size: 15px;
+	color:white;
+	text-align: center;
+}
+
+@media screen and (max-width: 1530px)
+{
+	.cualidades ul
+	{
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		padding-left: 0px;
+		margin-top: 0px;
+	}
+	.summ
+	{
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 913px)
+{
+	.container
+	{
+		display: flex;
+		flex-direction: column;
+		margin:auto;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+	.historial{
+		margin-bottom:0px;
+	}
+	.summ{
+		width: 100%;
+	}
+	.cualidades ul{
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		padding-left: 0px;
+	}	
+}
